@@ -1,0 +1,102 @@
+{
+   "accountSettings": {
+      "message": "Account Settings:"
+   },
+   "accountSuccessfullyConnected": {
+      "message": "Account successfully connected!"
+   },
+   "apiKey": {
+      "message": "API-KEY:"
+   },
+   "balance": {
+      "message": "Balance"
+   },
+   "connect": {
+      "message": "Connect"
+   },
+   "contactUs": {
+      "message": "Contact us: \u003Ca href=\"mailto:$email$\">$email$\u003C/a>",
+      "placeholders": {
+         "email": {
+            "content": "$1"
+         }
+      }
+   },
+   "createAccountToGetIt": {
+      "message": "\u003Ca href=\"#\" data-lang-link=\"$link$\" target=\"_blank\">Create account\u003C/a> to get it.",
+      "placeholders": {
+         "link": {
+            "content": "$1"
+         }
+      }
+   },
+   "delay": {
+      "message": "Delay"
+   },
+   "doNotHaveApiKey": {
+      "message": "Do not have API-KEY?"
+   },
+   "enablePlugin": {
+      "message": "Enable plugin"
+   },
+   "enabledSolveAutomatically": {
+      "message": "Enabled / Solve automatically"
+   },
+   "extDescription": {
+      "message": "This plugin allows you to automatically solve CAPTCHAs found on any webpage."
+   },
+   "extName": {
+      "message": "DCaptcha Solver"
+   },
+   "extShortName": {
+      "message": "DCaptcha"
+   },
+   "generalSettings": {
+      "message": "General settings:"
+   },
+   "haveAnyQuestions": {
+      "message": "Have any questions/suggestions?"
+   },
+   "ifErrorRepeat": {
+      "message": "If error happens, repeat"
+   },
+   "login": {
+      "message": "Login"
+   },
+   "logout": {
+      "message": "Logout"
+   },
+   "minScore": {
+      "message": "min. score:"
+   },
+   "optionsPageTitle": {
+      "message": "DCaptcha Extension Settings"
+   },
+   "proxySettings": {
+      "message": "Proxy settings"
+   },
+   "proxyType": {
+      "message": "Proxy type"
+   },
+   "seconds": {
+      "message": "seconds"
+   },
+   "solveWithDCaptcha": {
+      "message": "Solve with DCaptcha"
+   },
+   "solved": {
+      "message": "Captcha solved!"
+   },
+   "solving": {
+      "message": "Solving..."
+   },
+   "submitFormsAutomatically": {
+      "message": "Submit forms automatically"
+   },
+   "times": {
+      "message": "times"
+   },
+   "useProxy": {
+      "message": "Use proxy"
+   }
+}

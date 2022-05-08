@@ -1,0 +1,41 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "common/config.js", "common/api.js", "background/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "assets/images/icon_128.png",
+         "32": "assets/images/icon_32.png"
+      },
+      "default_popup": "popup/popup.html",
+      "default_title": "DCaptcha.Net"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "content/style.css" ],
+      "js": [ "vendor/jquery/3.5.1/jquery.min.js", "common/config.js", "content/script.js", "content/captcha/geetest/interceptor.js", "content/captcha/geetest/processor.js", "content/captcha/hcaptcha/interceptor.js", "content/captcha/hcaptcha/hunter.js", "content/captcha/hcaptcha/processor.js", "content/captcha/keycaptcha/hunter.js", "content/captcha/keycaptcha/processor.js", "content/captcha/recaptcha/interceptor.js", "content/captcha/recaptcha/hunter.js", "content/captcha/recaptcha/processor.js", "content/captcha/arkoselabs/interceptor.js", "content/captcha/arkoselabs/hunter.js", "content/captcha/arkoselabs/processor.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+   "homepage_url": "https://dcaptcha.net/",
+   "icons": {
+      "128": "assets/images/icon_128.png",
+      "32": "assets/images/icon_32.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3iSZ8dZ3vm0fe21u2CJjj87pJ5fk34hb5jB5WUmAczfQMfH3hZeVDmeCVJdXjOOs7+c1BQSYlNyizmhP56zMpWzSYc3kjnlTt2aEnUGMV8yM5b+YWZnAToeSY29D42DjZLnSSnRzdBHBPIkFpTdn0878uXiUsoKa0cnxcnuSv5S9PRESt9/Lj8TKbj9SeNwiMhWWgtQ3RYQvIbBzIFI3w2g0u/9iY2F4ZeDb65Gj4PbWjCGmSuttkjc185RlgiBbuJMc0klyUQ7Mq4PZOL7j6acodmBtpeht/+weEDDmHYR6ugNicoOt8R2Um41b3rhZN0OSG2IclDMgrmnWYKb+qwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extName__",
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "options/options.html"
+   },
+   "permissions": [ "storage" ],
+   "short_name": "__MSG_extShortName__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.6.6",
+   "web_accessible_resources": [ "assets/images/*" ]
+}

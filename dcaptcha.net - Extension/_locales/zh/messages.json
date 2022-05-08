@@ -1,0 +1,102 @@
+{
+   "accountSettings": {
+      "message": "设置账户:"
+   },
+   "accountSuccessfullyConnected": {
+      "message": "账户关联成功!"
+   },
+   "apiKey": {
+      "message": "API 密钥:"
+   },
+   "balance": {
+      "message": "余额"
+   },
+   "connect": {
+      "message": "联系"
+   },
+   "contactUs": {
+      "message": "联系我们: \u003Ca href=\"mailto:$email$\">$email$\u003C/a>",
+      "placeholders": {
+         "email": {
+            "content": "$1"
+         }
+      }
+   },
+   "createAccountToGetIt": {
+      "message": "\u003Ca href=\"#\" data-lang-link=\"$link$\" target=\"_blank\">创建一个账户\u003C/a> 可获取API 密钥.",
+      "placeholders": {
+         "link": {
+            "content": "$1"
+         }
+      }
+   },
+   "delay": {
+      "message": "延迟"
+   },
+   "doNotHaveApiKey": {
+      "message": "没有API密钥?"
+   },
+   "enablePlugin": {
+      "message": "启用插件"
+   },
+   "enabledSolveAutomatically": {
+      "message": "启用/自动解决"
+   },
+   "extDescription": {
+      "message": "该插件拓展程序有助于解决网站页面上的验证码。无论处于什么网页，该拓展程序都能帮助您自动识别网页上的验证码"
+   },
+   "extName": {
+      "message": " DCaptcha Solver"
+   },
+   "extShortName": {
+      "message": "DCaptcha"
+   },
+   "generalSettings": {
+      "message": "一般设置:"
+   },
+   "haveAnyQuestions": {
+      "message": "有任何问题或者建议?"
+   },
+   "ifErrorRepeat": {
+      "message": "如有错误，请重复"
+   },
+   "login": {
+      "message": "登陆"
+   },
+   "logout": {
+      "message": "登出"
+   },
+   "minScore": {
+      "message": "最小分值:"
+   },
+   "optionsPageTitle": {
+      "message": "设置DCaptcha 拓展程序"
+   },
+   "proxySettings": {
+      "message": "Proxy设置"
+   },
+   "proxyType": {
+      "message": "代理类型"
+   },
+   "seconds": {
+      "message": "秒"
+   },
+   "solveWithDCaptcha": {
+      "message": "使用DCaptcha解决"
+   },
+   "solved": {
+      "message": "验证码解决!"
+   },
+   "solving": {
+      "message": "解决..."
+   },
+   "submitFormsAutomatically": {
+      "message": "自动提交表格"
+   },
+   "times": {
+      "message": "时间"
+   },
+   "useProxy": {
+      "message": "使用代理服务器"
+   }
+}

@@ -1,0 +1,102 @@
+{
+   "accountSettings": {
+      "message": "Настройки аккаунта:"
+   },
+   "accountSuccessfullyConnected": {
+      "message": "Аккаунт успешно подключен!"
+   },
+   "apiKey": {
+      "message": "API-ключ:"
+   },
+   "balance": {
+      "message": "Баланс"
+   },
+   "connect": {
+      "message": "Подключить"
+   },
+   "contactUs": {
+      "message": "Дайте нам знать: \u003Ca href=\"mailto:$email$\">$email$\u003C/a>",
+      "placeholders": {
+         "email": {
+            "content": "$1"
+         }
+      }
+   },
+   "createAccountToGetIt": {
+      "message": "\u003Ca href=\"#\" data-lang-link=\"$link$\" target=\"_blank\">Создайте аккаунт\u003C/a> чтобы его получить.",
+      "placeholders": {
+         "link": {
+            "content": "$1"
+         }
+      }
+   },
+   "delay": {
+      "message": "Задержка"
+   },
+   "doNotHaveApiKey": {
+      "message": "Нет API-ключа?"
+   },
+   "enablePlugin": {
+      "message": "Включить плагин"
+   },
+   "enabledSolveAutomatically": {
+      "message": "Включено / Решать автоматически"
+   },
+   "extDescription": {
+      "message": "Этот плагин помагает решать капчи на страницах сайтов."
+   },
+   "extName": {
+      "message": "DCaptcha Solver"
+   },
+   "extShortName": {
+      "message": "DCaptcha"
+   },
+   "generalSettings": {
+      "message": "Общие настройки:"
+   },
+   "haveAnyQuestions": {
+      "message": "Есть вопросы/предложения?"
+   },
+   "ifErrorRepeat": {
+      "message": "В случае ошибки, повторить"
+   },
+   "login": {
+      "message": "Войти"
+   },
+   "logout": {
+      "message": "Выход"
+   },
+   "minScore": {
+      "message": "мин. score:"
+   },
+   "optionsPageTitle": {
+      "message": "Настройки расширения DCaptcha"
+   },
+   "proxySettings": {
+      "message": "Настройки прокси"
+   },
+   "proxyType": {
+      "message": "Тип прокси"
+   },
+   "seconds": {
+      "message": "секунд"
+   },
+   "solveWithDCaptcha": {
+      "message": "Решить с DCaptcha"
+   },
+   "solved": {
+      "message": "Капча решена!"
+   },
+   "solving": {
+      "message": "Решается..."
+   },
+   "submitFormsAutomatically": {
+      "message": "Отправлять формы автоматически"
+   },
+   "times": {
+      "message": "раз"
+   },
+   "useProxy": {
+      "message": "Использовать прокси"
+   }
+}
